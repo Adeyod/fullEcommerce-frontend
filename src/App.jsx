@@ -23,7 +23,6 @@ import Favourites from './pages/Favourites';
 
 const App = () => {
   const dispatch = useDispatch();
-  // const navigate = useNavigate();
   // const [admin, setAdmin] = useState(false);
 
   // const { currentUser } = useSelector((state) => state.user);
