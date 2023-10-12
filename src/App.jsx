@@ -96,9 +96,8 @@ const App = () => {
         /> */}
         <Route path="/" element={<HomePage />} />
 
-        <Route path="/product-details/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/product-details/:id" element={<ProductDetails />} />
 
         {/* ASSOCIATED WITH LOGIN AND REGISTER */}
         <Route path="/login" element={<Login />} />
@@ -121,6 +120,7 @@ const App = () => {
           <Route path="/edit-profile" element={<EditProfile />} />
           <Route path="/check-out" element={<CheckOut />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
