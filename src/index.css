@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 100px;
+}
+
+.details {
+  line-height: 40px;
+}
+
+p {
+  font-size: 17px;
+}
