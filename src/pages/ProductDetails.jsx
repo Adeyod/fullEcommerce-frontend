@@ -15,7 +15,8 @@ const ProductDetails = () => {
           `https://fullecommerce-backend.onrender.com/api/products/getProductById/${id}`
         );
         if (!response.ok) {
-          throw new Error('Network not ok');
+          console.log('Network not ok');
+          // throw new Error('Network not ok');
         }
         const data = await response.json();
         setCurrentProduct(data);
